@@ -1,8 +1,10 @@
 #!/bin/bash
-
+#if a trash directory exists, then move the specified file to trash(RECYCLE). 
+#If there is no trash(RECYCLE) directory, then create it and place the specified file there
 if [ -e ~/RECYCLE ]
-   then
-    echo  существует
-   else 
+  then
+    mv "$1" ~/RECYCLE
+  else 
     mkdir ~/RECYCLE
+    mv "$1" ~/RECYCLE
 fi
