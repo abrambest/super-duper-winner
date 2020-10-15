@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -e ~/RECYCLE ]
+   then
+    echo  существует
+   else 
+    mkdir ~/RECYCLE
+fi
