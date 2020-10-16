@@ -12,6 +12,7 @@ if there are any, then in ~/RECYCLE all files and directories deleted 7 days ago
 - Run the command `mkdir ~/bin`
 - Then execute `echo export PATH="${PATH}:~/bin" >> ~/.bash_profile`
 - Next, move the previously downloaded srm file to the bin directory, you can do this with the command `mv ~/srm ~/bin`
+- Run the command `chmod +x ~/bin/srm`
 - Reconnect to server
 
 Everything is ready! You can use
@@ -30,6 +31,7 @@ Everything is ready! You can use
 - Выполните команду `mkdir ~/bin`
 - Далее выполните `echo export PATH="${PATH}:~/bin" >> ~/.bash_profile`
 - Далее переместите ранее скаченый файл srm в директорию bin можно сделать это командой `mv ~/srm ~/bin`
+- Выполните команду `chmod +x ~/bin/srm`
 - Переподключить к серверу
 
 Все готово! Можно пользоваться
