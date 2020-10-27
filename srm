@@ -14,5 +14,5 @@ if [ -e ~/RECYCLE/$1 ]
     echo "$1" 'перемещен в корзину'
  #compress the moved file in the trash can
    gzip ~/RECYCLE/$1
-   find ~/RECYCLE/ -mtime +6 -type f -delete
+   find ~/RECYCLE/ -mtime +7 -type f -delete
 fi
